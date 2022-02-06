@@ -23,5 +23,5 @@ func fitNeuronOnDots(neuronNetwork *machine_learn.Network, dots []figures.Point)
 		})
 	}
 
-	neuronNetwork.Fit(trainSet, 50)
+	neuronNetwork.Fit(trainSet, 10_000)
 }

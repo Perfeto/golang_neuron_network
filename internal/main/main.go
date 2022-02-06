@@ -10,7 +10,7 @@ import (
 func main() {
 	rand.Seed(time.Now().Unix())
 
-	neuronsNetwork := machine_learn.NewNetwork(2, 1, 2, 0.2)
+	neuronsNetwork := machine_learn.NewNetwork(2, 1, 2, 2, 0.2)
 
 	neuronsNetwork.Fit([]machine_learn.TrainExercise{
 		{
