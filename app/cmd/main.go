@@ -17,7 +17,7 @@ const (
 
 func main() {
 
-	wnd, cv, err := sdlcanvas.CreateWindow(width, height, "Hello")
+	wnd, cv, err := sdlcanvas.CreateWindow(width, height, "Neuron Network")
 	if err != nil {
 		panic(err)
 	}

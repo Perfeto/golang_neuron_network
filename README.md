@@ -1,2 +1,4 @@
 # golang neuron network
-Это нейронная сеть способная разграничивать точки разных цветов на разные группы
+This is simple golang neuron network
+
+![neuron_example](./neuron_example.png "neuron examole")
